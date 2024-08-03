@@ -8,9 +8,9 @@ Triangle::Triangle(double ax, double ay, double bx, double by, double cx, double
 Triangle::Triangle(Dot a, Dot b, Dot c) : a(a), b(b), c(c) {}
 
 void Triangle::printSides()  {
-    cout << "расстояние a-b " << a.distanceTo(b) << endl;
-    cout << "расстояние b-c " << b.distanceTo(c) << endl;
-    cout << "расстояние c-a " << c.distanceTo(a) << endl;
+    cout << "СЂР°СЃСЃС‚РѕСЏРЅРёРµ a-b " << a.distanceTo(b) << endl;
+    cout << "СЂР°СЃСЃС‚РѕСЏРЅРёРµ b-c " << b.distanceTo(c) << endl;
+    cout << "СЂР°СЃСЃС‚РѕСЏРЅРёРµ c-a " << c.distanceTo(a) << endl;
 }
 double Triangle::perimeter() {
     return a.distanceTo(b) + b.distanceTo(c) + c.distanceTo(a);
